@@ -1,0 +1,6 @@
+{
+  "name": "Maison Elite",
+  "description": "An award-winning luxury real estate advisory. Curated masters of architecture, private penthouses, and ultra-high-net-worth real estate investments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
