@@ -3,6 +3,8 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+import luxuryHeroVilla from '../assets/images/luxury_hero_villa_1781657129005.jpg';
+
 export interface Agent {
   id: string;
   name: string;
@@ -98,9 +100,9 @@ export const PROPERTIES: Property[] = [
     beds: 6,
     baths: 8,
     sqft: 11400,
-    image: '/src/assets/images/luxury_hero_villa_1781657129005.jpg',
+    image: luxuryHeroVilla,
     gallery: [
-      '/src/assets/images/luxury_hero_villa_1781657129005.jpg',
+      luxuryHeroVilla,
       'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200',
       'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200',
       'https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?q=80&w=1200'
@@ -124,7 +126,7 @@ export const PROPERTIES: Property[] = [
         {
           id: 'foyer',
           name: 'Grand Entrance Foyer',
-          image: '/src/assets/images/luxury_hero_villa_1781657129005.jpg',
+          image: luxuryHeroVilla,
           hotspots: [
             { label: 'Walk to Great Room', targetRoomId: 'living', x: 75, y: 55 },
             { label: 'Step Outer Infinity Pool', targetRoomId: 'pool', x: 25, y: 65 }

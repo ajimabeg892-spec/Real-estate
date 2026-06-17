@@ -6,6 +6,7 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
 import { ArrowDownRight, Compass, ShieldCheck } from 'lucide-react';
+import heroVilla from '../assets/images/luxury_hero_villa_1781657129005.jpg';
 
 interface HeroProps {
   onOpenConsultation: () => void;
@@ -75,7 +76,7 @@ export default function Hero({ onOpenConsultation, onExploreProperties }: HeroPr
         >
           <img
             id="hero-bg-image"
-            src="/src/assets/images/luxury_hero_villa_1781657129005.jpg"
+            src={heroVilla}
             alt="Maison Luxury Villa Malibu Cliffside Sunset"
             className="w-full h-full object-cover object-center filter contrast-105 brightness-95"
             referrerPolicy="no-referrer"
